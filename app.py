@@ -8,7 +8,7 @@ from surveys import satisfaction_survey as survey
 RESPONSES_KEY = "responses"
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = "never-tell!"
+app.config['SECRET_KEY'] = "Mustafar"
 app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = False
 
 debug = DebugToolbarExtension(app)
